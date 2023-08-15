@@ -1,0 +1,149 @@
+/*#780000 dark red, #c1121f red, #003049 dark blue, #669bbc blue*/
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+    .brand-title :hover{
+        color: #c1121f;
+      }
+      .navbar-links ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      .navbar-links li{
+        list-style: none;
+      }
+      
+      .navbar-links li a{
+      text-decoration: none;
+      color: black;
+      padding: 1rem;
+      display: block;
+      }
+      
+      .navbar-links li a:hover{
+        color: #c1121f;
+      }
+      
+      .toggle-button{
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+      }
+      
+      .toggle-button .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        border-radius: 10px;
+      }
+      
+      @media(max-width: 600px) {
+        .toggle-button{
+          display: flex;
+        }
+        .navbar-links{
+          display: none;
+          width: 100%;
+        }
+        .navbar{
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .navbar-links ul{
+          width: 100%;
+          flex-direction: column;
+        }
+        .navbar-links li{
+          text-align: center;
+        }
+        .navbar-links li a{
+          padding: .5rem 1rem;
+        }
+        .navbar-links.active{
+          display: flex;
+        }
+      }
+
+      .Container-column{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        /*margin: 50px;*/
+        padding: 10px 50px;
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/klk4.jpg");
+        background-size: cover;
+        color: white;
+      }
+
+
+      .line-break{
+        width: 10%;
+        height: 2.5px;
+        margin: 10px 0;
+        border: 4px dotted black;
+        border-style: none none dotted; 
+        color: #fff; 
+        background-color: #fff;
+      }
+
+      .line-red{
+        width: 5%;
+        height: 2.5px;
+        margin: 10px 0;
+        border: 4px dotted #c1121f;
+        border-style: none none dotted; 
+      }
+
+      #menu-link {
+        color: white;
+        }
+
+.hours{
+  color: #c1121f;
+}
+
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #003049;
+    color: white;
+}
+
+.white-a{
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.white-a:hover {
+  text-decoration: underline;
+  color: #c1121f;
+}
