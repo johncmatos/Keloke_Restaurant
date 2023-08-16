@@ -58,7 +58,7 @@ li{
       .toggle-button .bar{
         height: 3px;
         width: 100%;
-        background-color: black;
+        background-color: white;
         border-radius: 10px;
       }
       
@@ -99,6 +99,75 @@ li{
         background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/klk4.jpg");
         background-size: cover;
         color: white;
+      }
+
+      .Container-columnfm{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        /*margin: 50px;*/
+        padding: 10px 50px;
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/fullmenu_kr.jpg");
+        background-size: cover;
+        color: white;
+      }
+
+      .Container-columnc{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        /*margin: 50px;*/
+        padding: 10px 50px;
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/catering_kr.jpg");
+        background-size: cover;
+        color: white;
+      }
+
+      .Container-columnkn{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        /*margin: 50px;*/
+        padding: 10px 50px;
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/karaoke.jpg");
+        background-size: cover;
+        color: white;
+      }
+
+      .Container-columnau{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        /*margin: 50px;*/
+        padding: 10px 50px;
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/about_kr.jpg");
+        background-size: cover;
+        color: white;
+      }
+
+      .Container-columnl{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        /*margin: 50px;*/
+        padding: 10px 50px;
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/klk4.jpg");
+        background-size: cover;
+        color: white;
+      }
+
+      .Container-column1{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        /*margin: 50px;*/
+        padding: 10px 50px;
       }
 
 
