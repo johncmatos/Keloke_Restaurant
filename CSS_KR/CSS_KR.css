@@ -101,6 +101,15 @@ li{
         color: white;
       }
 
+      /*#footer2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #001f2f;
+        color: white;
+      } change it so the cards under "first class service" are in a row*/
+
+
       .Container-columnfm{
         display: flex;
         flex-direction:column ;
@@ -120,7 +129,7 @@ li{
         align-items: center;
         /*margin: 50px;*/
         padding: 10px 50px;
-        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/catering_kr.jpg");
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/Untitled.png");
         background-size: cover;
         color: white;
       }
@@ -132,7 +141,7 @@ li{
         align-items: center;
         /*margin: 50px;*/
         padding: 10px 50px;
-        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/karaoke.jpg");
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/karaoke4.png");
         background-size: cover;
         color: white;
       }
@@ -156,7 +165,7 @@ li{
         align-items: center;
         /*margin: 50px;*/
         padding: 10px 50px;
-        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/klk4.jpg");
+        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/slc.jpg");
         background-size: cover;
         color: white;
       }
@@ -198,12 +207,24 @@ li{
 }
 
 
+
 #footer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     background-color: #003049;
     color: white;
+}
+
+#footer2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #001f2f;
+  color: white;
+}
+
+.footerh{
+  color: #c1121f;
 }
 
 .white-a{
