@@ -233,7 +233,63 @@ li{
   text-decoration-color: white;
 }
 
-.white-a:hover {
+.white-a:hover{
   text-decoration: underline;
   color: #c1121f;
 }
+
+/* testing code */
+#center{
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container{
+  width: 600px;
+  height: 300px;
+  perspective: 800px;
+}
+
+.container:hover > .card{
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front{
+  background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/drflag.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.back{
+  background-color: black;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+/* testing code */
