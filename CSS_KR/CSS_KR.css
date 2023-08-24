@@ -3,6 +3,11 @@
 body{
     margin:0;
     padding: 0;
+    font-family: sans-serif;
+}
+
+.nomargin{
+  margin: 0;
 }
 
 li{
@@ -187,7 +192,15 @@ li{
         border: 4px dotted black;
         border-style: none none dotted; 
         color: #fff; 
-        background-color: #fff;
+      }
+
+      .line-breaksolid{
+        width: 30%;
+        height: 2.5px;
+        margin: 0;
+        border: solid #c1121f;
+        border-style: none none solid; 
+        color: #fff; 
       }
 
       .line-red{
@@ -245,12 +258,11 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
 }
 
 .container{
-  width: 600px;
-  height: 300px;
+  width: 340px;
+  height: 350px;
   perspective: 800px;
 }
 
@@ -267,24 +279,64 @@ li{
   transform-style: preserve-3d;
 }
 
-.front,
-.back{
+.front, .front2, .front3, .back, .back2, .back3{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*gap: 5rem;*/
   width: 100%;
   height: 100%;
-  border-radius: 2rem;
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   position: absolute;
   backface-visibility: hidden;
+  border-radius: 2rem;
 }
 
 .front{
-  background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/drflag.jpg");
+  background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/sancocho2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.front2{
+  background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/jugo3.1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.front3{
+  background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/moro3.1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .back{
   background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.back2{
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.back3{
+  background-color: black;
+  color: white;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
