@@ -23,11 +23,15 @@ li{
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    border: 1px solid black;
+    border-style: solid; 
   }
 
-    .brand-title :hover{
-        color: #c1121f;
-      }
+  #drflag{
+    border: 2px solid black;
+    border-style: solid; 
+  }
+
       .navbar-links ul{
         margin: 0;
         padding: 0;
@@ -94,16 +98,32 @@ li{
         }
       }
 
-      .Container-column{
+      .Container-columnhome{
         display: flex;
         flex-direction:column ;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         /*margin: 50px;*/
         padding: 10px 50px;
         background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/klk4.jpg");
         background-size: cover;
         color: white;
+        height: 200px;
+        width: auto;
+      }
+
+      .Container-column{
+        display: flex;
+        flex-direction:column ;
+        justify-content: flex-start;
+        align-items: center;
+        /*margin: 50px;*/
+        padding: 10px 50px;
+        background-image: url("C:Users/johnc/Desktop/Git_Repos/KR/Media_KR/klk4.jpg");
+        background-size: cover;
+        color: white;
+        height: 200px;
+        width: auto;
       }
 
       /*#footer2{
@@ -113,67 +133,6 @@ li{
         background-color: #001f2f;
         color: white;
       } change it so the cards under "first class service" are in a row*/
-
-
-      .Container-columnfm{
-        display: flex;
-        flex-direction:column ;
-        justify-content: center;
-        align-items: center;
-        /*margin: 50px;*/
-        padding: 10px 50px;
-        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/fullmenu_kr.jpg");
-        background-size: cover;
-        color: white;
-      }
-
-      .Container-columnc{
-        display: flex;
-        flex-direction:column ;
-        justify-content: center;
-        align-items: center;
-        /*margin: 50px;*/
-        padding: 10px 50px;
-        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/Untitled.png");
-        background-size: cover;
-        color: white;
-      }
-
-      .Container-columnkn{
-        display: flex;
-        flex-direction:column ;
-        justify-content: center;
-        align-items: center;
-        /*margin: 50px;*/
-        padding: 10px 50px;
-        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/karaoke4.png");
-        background-size: cover;
-        color: white;
-      }
-
-      .Container-columnau{
-        display: flex;
-        flex-direction:column ;
-        justify-content: center;
-        align-items: center;
-        /*margin: 50px;*/
-        padding: 10px 50px;
-        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/about_kr.jpg");
-        background-size: cover;
-        color: white;
-      }
-
-      .Container-columnl{
-        display: flex;
-        flex-direction:column ;
-        justify-content: center;
-        align-items: center;
-        /*margin: 50px;*/
-        padding: 10px 50px;
-        background-image: url("C:/Users/johnc/Desktop/Git_Repos/KR/Media_KR/slc.jpg");
-        background-size: cover;
-        color: white;
-      }
 
       .Container-column1{
         display: flex;
@@ -190,6 +149,15 @@ li{
         height: 2.5px;
         margin: 10px 0;
         border: 4px dotted black;
+        border-style: none none dotted; 
+        color: #fff; 
+      }
+
+      .line-breakh{
+        width: 10%;
+        height: 2.5px;
+        margin: 10px 0;
+        border: 4px dotted white;
         border-style: none none dotted; 
         color: #fff; 
       }
@@ -211,8 +179,46 @@ li{
         border-style: none none dotted; 
       }
 
+      .line-white{
+        width: 5%;
+        height: 2.5px;
+        margin: 10px 0;
+        border: 4px dotted white;
+        border-style: none none dotted; 
+      }
+
       #menu-link {
         color: white;
+        }
+
+      #menu-linkb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        border: 1px solid #c1121f;
+        border-style: solid; 
+        background-color: rgb(247, 247, 247);
+        width: 223px;
+        height: 47px;
+        }
+
+        .Container-column11{
+          display: flex;
+          flex-direction:column ;
+          justify-content: center;
+          align-items: center;
+          /*padding: 10px 50px;*/
+        }
+
+        #menu-linkb:hover{
+          background-color: #c1121f;
+          color:white;
+        }
+
+        #menu-linkblack{
+          color: black;
         }
 
 .hours{
@@ -251,7 +257,6 @@ li{
   color: #c1121f;
 }
 
-/* testing code */
 #center{
   height: 100vh;
   overflow: hidden;
@@ -344,4 +349,8 @@ li{
   align-items: center;
   gap: 5rem;
 }
+/* testing code */
+
+
+
 /* testing code */
