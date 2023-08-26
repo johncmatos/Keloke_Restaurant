@@ -350,7 +350,74 @@ li{
   gap: 5rem;
 }
 /* testing code */
+.testimonials{
+  padding: 40px 0;
+  background-color: rgb(247, 247, 247);
+  color:black;
+  text-align: center;
+}
 
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow:hidden;
+  padding: 0 20px; 
+}
 
+.border{
+width:160px;
+height: 5px;
+background-color: #c1121f;
+margin: 26px auto;
+}
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+
+}
+
+.testimonial{
+  background-color: #fff;
+  padding: 30px;
+}
+
+.testimonial img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars{
+  color: #c1121f;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+.col{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
 /* testing code */
