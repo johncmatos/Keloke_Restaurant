@@ -6,6 +6,11 @@ body{
     font-family: sans-serif;
 }
 
+p{
+  text-indent:10px;
+}
+
+
 .nomargin{
   margin: 0;
 }
@@ -98,6 +103,45 @@ li{
         }
       }
 
+      .article-columnleft{
+        width: 40%;
+        float: left;
+        margin: 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 1.7em;
+    }
+
+    .article-columnmid{
+      width: 31.3%;
+      float: left;
+      margin: 2%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+    .article-columnright{
+      width: 31.3%;
+      float: left;
+      margin: 2%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+    #content {
+      overflow: auto;
+      display: flex;
+      flex-direction: row; 
+      margin: 0 0 150px 0;
+      /*background-color: rgb(247, 247, 247);*/
+  }
+  
+
+
+
       .Container-columnhome{
         display: flex;
         flex-direction:column ;
@@ -124,7 +168,7 @@ li{
         color: white;
         height: 200px;
         width: auto;
-      }
+        }
 
       /*#footer2{
         display: flex;
@@ -141,6 +185,8 @@ li{
         align-items: center;
         /*margin: 50px;*/
         padding: 10px 50px;
+        margin: 40px 0 40px 0;
+        /*background-color: rgb(247, 247, 247);*/
       }
 
 
@@ -210,6 +256,7 @@ li{
           justify-content: center;
           align-items: center;
           /*padding: 10px 50px;*/
+          margin: 40px 0 40px 0;
         }
 
         #menu-linkb:hover{
@@ -318,8 +365,8 @@ li{
 }
 
 .back{
-  background-color: black;
-  color: white;
+  background-color: rgb(247, 247, 247);
+  color: black;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -329,8 +376,8 @@ li{
 }
 
 .back2{
-  background-color: black;
-  color: white;
+  background-color: rgb(247, 247, 247);
+  color: black;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -340,8 +387,8 @@ li{
 }
 
 .back3{
-  background-color: black;
-  color: white;
+  background-color: rgb(247, 247, 247);
+  color: black;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -388,6 +435,7 @@ margin: 26px auto;
 .testimonial{
   background-color: #fff;
   padding: 30px;
+  line-height: 1.7em;
 }
 
 .testimonial img{
