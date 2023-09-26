@@ -191,9 +191,20 @@ li{
 
 
       .line-break{
+        float: left;
         width: 10%;
         height: 2.5px;
         margin: 10px 0;
+        border: 4px dotted black;
+        border-style: none none dotted; 
+        color: #fff; 
+      }
+
+      .line-break1{
+        float: left;
+        width:10%;
+        height: 5px;
+        margin: 26px auto;
         border: 4px dotted black;
         border-style: none none dotted; 
         color: #fff; 
@@ -218,12 +229,20 @@ li{
       }
 
       .line-red{
+        border: 4px dotted #c1121f;
+        border-style: none none dotted; 
+        width:160px;
+        height: 5px;
+        margin: 26px auto;
+      }
+      .line-red1{
         width: 5%;
         height: 2.5px;
         margin: 10px 0;
         border: 4px dotted #c1121f;
         border-style: none none dotted; 
       }
+
 
       .line-white{
         width: 5%;
@@ -270,6 +289,7 @@ li{
 
 .hours{
   color: #c1121f;
+  font-size: 18px;
 }
 
 
